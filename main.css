@@ -1,0 +1,115 @@
+/**
+Sample css code
+*/
+/* Set height to 100% for body and html to enable the background image to cover the whole page: */
+body,
+html {
+  height: 100%;
+  display: block;
+  align-content: center;
+}
+
+#aboutUS{
+  background-color: white;
+}
+
+
+
+/*background color */
+body{
+  background-color: lightgray;
+  }
+
+/*paragraph text*/
+h1{
+  color: black;
+}
+h2{
+  color:black;
+}
+
+#mainPage{
+/*background-image: url("../img/bookStack"); /*find better image*/ 
+background-repeat: no-repeat;
+height: 100px;
+width: max-content;
+align-content: center;
+
+
+}
+
+.center{
+  text-align: center;
+  border-style: double;
+}
+
+#crosstab{
+  color: black;
+  list-style: none;
+  float: left;
+  margin:0 5px;
+  border: black;
+  border: double;
+  background-image: url("../img/usf-logo-png-2.png");
+  width: 1500px;
+  
+}
+
+#ul{
+  list-style-type: none;
+  position: fixed;
+  margin-left: auto;
+  /*width: 500px;*/
+
+}
+
+#crossList{
+  list-style: none;
+  display: inline-block;
+  padding: 0;
+  width: 200px;
+  text-align: center;
+}
+
+#schoolImage{
+  max-width: 2000px;
+}
+
+#member{
+  display: inline-block;
+  text-align: left;
+}
+
+#summary{
+  text-align: left;
+  display: inline-block;
+  margin-left: 2.5;
+}
+
+/*Table css*/
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+
+
+.table-title {
+  padding: 20px 10px 10px 10px;
+  text-align: center;
+}
+
+
