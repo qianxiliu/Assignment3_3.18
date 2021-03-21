@@ -9,6 +9,7 @@ html {
   align-content: center;
 }
 
+
 #aboutUS{
   background-color: white;
 }
@@ -51,7 +52,7 @@ align-content: center;
   border: black;
   border: double;
   background-image: url("../img/usf-logo-png-2.png");
-  width: 1500px;
+  width: 1325px;
   
 }
 
@@ -67,7 +68,7 @@ align-content: center;
   list-style: none;
   display: inline-block;
   padding: 0;
-  width: 200px;
+  width: 300px;
   text-align: center;
 }
 
@@ -77,19 +78,22 @@ align-content: center;
 
 #member{
   display: inline-block;
-  text-align: left;
+  text-align: center;
+      
 }
 
 #summary{
   text-align: left;
   display: inline-block;
   margin-left: 2.5;
+  padding:20px;
 }
 
 #content{
     text-align:center;
     padding:15px;
 }
+
 
 /*Table css*/
 table {
@@ -119,15 +123,12 @@ tr:nth-child(even) {
 }
 
 
-#aboutUS{
-    text-align:center;
-    padding: 15px;
-}
 
 .member{
     display:inline-block;
     width:30%;
-    padding: 5px;
+    padding: 20px;
     text-align: center;
 }
+
 
